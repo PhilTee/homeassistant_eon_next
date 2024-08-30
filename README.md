@@ -19,7 +19,7 @@ curl 'https://api.eonnext-kraken.energy/v1/graphql/' \
   ```
 
 ## TODO
-- [ ] Setup basic HomeAssistant Integration Structure
+- [X] Setup basic HomeAssistant Integration Structure
 - [ ] Implement the Account Balance API call
 - [ ] Create the Account Balance Sensor Entity
 - [ ] Add configuration to configuration.yml
