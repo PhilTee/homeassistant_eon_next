@@ -20,10 +20,10 @@ curl 'https://api.eonnext-kraken.energy/v1/graphql/' \
 
 ## TODO
 - [X] Setup basic HomeAssistant Integration Structure
-- [ ] Implement the Account Balance API call
+- [X] Implement the Login mutation call to get the JWT
+- [X] Implement the Account Balance API call
 - [ ] Create the Account Balance Sensor Entity
 - [ ] Add configuration to configuration.yml
-- [ ] Implement the Login mutation call to get the JWT
 - [ ] Determine if the GetOptimizelyAttributeUserData and the getAccountMeterSelector queries can be fetched ina single GQL API call
 - [ ] Get meter readings from getAccountMeterSelector query
 - [ ] Create Sensor Entities for:
